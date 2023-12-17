@@ -38,7 +38,7 @@
             // 
             this.labelBrowse.AutoSize = true;
             this.labelBrowse.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBrowse.Location = new System.Drawing.Point(3, 7);
+            this.labelBrowse.Location = new System.Drawing.Point(111, 91);
             this.labelBrowse.Name = "labelBrowse";
             this.labelBrowse.Size = new System.Drawing.Size(135, 21);
             this.labelBrowse.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // buttonRemove
             // 
-            this.buttonRemove.Location = new System.Drawing.Point(437, 290);
+            this.buttonRemove.Location = new System.Drawing.Point(311, 173);
             this.buttonRemove.Name = "buttonRemove";
             this.buttonRemove.Size = new System.Drawing.Size(75, 23);
             this.buttonRemove.TabIndex = 23;
@@ -55,7 +55,7 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(437, 261);
+            this.buttonEdit.Location = new System.Drawing.Point(311, 144);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(75, 23);
             this.buttonEdit.TabIndex = 24;
@@ -64,7 +64,7 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(437, 232);
+            this.buttonAdd.Location = new System.Drawing.Point(311, 115);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(75, 23);
             this.buttonAdd.TabIndex = 25;
@@ -75,12 +75,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.buttonRemove);
             this.Controls.Add(this.labelBrowse);
             this.Name = "Catalogue";
-            this.Size = new System.Drawing.Size(515, 320);
+            this.Size = new System.Drawing.Size(415, 220);
             this.ResumeLayout(false);
             this.PerformLayout();
 

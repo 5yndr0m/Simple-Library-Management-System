@@ -46,28 +46,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UserControl\SidePanelUser.cs">
+    <Compile Include="UserControlStaff\Account.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\SidePanelUser.Designer.cs">
+    <Compile Include="UserControlStaff\Account.Designer.cs">
+      <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlStaff\Analysis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlStaff\Analysis.Designer.cs">
+      <DependentUpon>Analysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlStaff\FineCalculator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlStaff\FineCalculator.Designer.cs">
+      <DependentUpon>FineCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlStaff\AddUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlStaff\AddUsers.Designer.cs">
+      <DependentUpon>AddUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlStaff\RemoveUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlStaff\RemoveUser.Designer.cs">
+      <DependentUpon>RemoveUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlStaff\EditUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlStaff\EditUsers.Designer.cs">
+      <DependentUpon>EditUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlUser\SidePanelUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlUser\SidePanelUser.Designer.cs">
       <DependentUpon>SidePanelUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\SidePanelStaff.cs">
+    <Compile Include="UserControlStaff\AddBooks.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\SidePanelStaff.Designer.cs">
-      <DependentUpon>SidePanelStaff.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\AddBooks.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\AddBooks.Designer.cs">
+    <Compile Include="UserControlStaff\AddBooks.Designer.cs">
       <DependentUpon>AddBooks.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\Catalogue.cs">
+    <Compile Include="UserControlStaff\Catalogue.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\Catalogue.Designer.cs">
+    <Compile Include="UserControlStaff\Catalogue.Designer.cs">
       <DependentUpon>Catalogue.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.cs">
@@ -76,23 +106,29 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\EditBooks.cs">
+    <Compile Include="UserControlStaff\EditBooks.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\EditBooks.Designer.cs">
+    <Compile Include="UserControlStaff\EditBooks.Designer.cs">
       <DependentUpon>EditBooks.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\Home.cs">
+    <Compile Include="UserControlStaff\Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\Home.Designer.cs">
+    <Compile Include="UserControlStaff\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\RemoveBooks.cs">
+    <Compile Include="UserControlStaff\RemoveBooks.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\RemoveBooks.Designer.cs">
+    <Compile Include="UserControlStaff\RemoveBooks.Designer.cs">
       <DependentUpon>RemoveBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlStaff\UserManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlStaff\UserManagement.Designer.cs">
+      <DependentUpon>UserManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="WelcomePage.cs">
       <SubType>Form</SubType>
@@ -103,25 +139,40 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="UserControl\SidePanelUser.resx">
+    <EmbeddedResource Include="UserControlStaff\Account.resx">
+      <DependentUpon>Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlStaff\Analysis.resx">
+      <DependentUpon>Analysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlStaff\FineCalculator.resx">
+      <DependentUpon>FineCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlStaff\AddUsers.resx">
+      <DependentUpon>AddUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlStaff\RemoveUser.resx">
+      <DependentUpon>RemoveUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlStaff\EditUsers.resx">
+      <DependentUpon>EditUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlUser\SidePanelUser.resx">
       <DependentUpon>SidePanelUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\SidePanelStaff.resx">
-      <DependentUpon>SidePanelStaff.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\AddBooks.resx">
+    <EmbeddedResource Include="UserControlStaff\AddBooks.resx">
       <DependentUpon>AddBooks.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Catalogue.resx">
+    <EmbeddedResource Include="UserControlStaff\Catalogue.resx">
       <DependentUpon>Catalogue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\EditBooks.resx">
+    <EmbeddedResource Include="UserControlStaff\EditBooks.resx">
       <DependentUpon>EditBooks.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Home.resx">
+    <EmbeddedResource Include="UserControlStaff\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -133,8 +184,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControl\RemoveBooks.resx">
+    <EmbeddedResource Include="UserControlStaff\RemoveBooks.resx">
       <DependentUpon>RemoveBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlStaff\UserManagement.resx">
+      <DependentUpon>UserManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomePage.resx">
       <DependentUpon>WelcomePage.cs</DependentUpon>
