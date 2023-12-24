@@ -2,17 +2,23 @@ C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\bin\Debug\University Library Management System.exe
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\bin\Debug\University Library Management System.pdb
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University Library Management System.csproj.AssemblyReference.cache
-C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.Properties.Resources.resources
-C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.Form1.resources
-C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University Library Management System.csproj.GenerateResource.cache
-C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University Library Management System.csproj.CoreCompileInputs.cache
-C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University Library Management System.exe
-C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University Library Management System.pdb
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.UserControlStaff.Account.resources
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.UserControlStaff.Analysis.resources
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.FineCalculator.resources
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.AddUsers.resources
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.RemoveUser.resources
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.EditUsers.resources
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.SidePanelUser.resources
-C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.SidePanelStaff.resources
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.AddBooks.resources
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.Catalogue.resources
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.Dashboard.resources
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.EditBooks.resources
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.Home.resources
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.Properties.Resources.resources
 C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.RemoveBooks.resources
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.UserManagement.resources
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University_Library_Management_System.Form1.resources
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University Library Management System.csproj.GenerateResource.cache
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University Library Management System.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University Library Management System.exe
+C:\Users\User\Documents\Visual Studio 2022\TryHard\University Library Management System\University Library Management System\obj\Debug\University Library Management System.pdb
