@@ -7,29 +7,48 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Library_Management_System.StaffControls;
+using Library_Management_System.UserUC;
 
 namespace Library_Management_System
 {
     public partial class FormStaffControls : Form
     {
+        //initialize other forms
+        private FormWelcome Welcome = null;
+        //initialize the user controls
+        private UserControlManageBooks UserControlManageBooks = null;
+        private Control currentContent;
+
         public FormStaffControls()
         {
             InitializeComponent();
         }
 
-        private void panelHead_Paint(object sender, PaintEventArgs e)
+        private void buttonLogout_Click(object sender, EventArgs e)
         {
-
+            if (Welcome == null || Welcome.IsDisposed)
+            {
+                Welcome = new FormWelcome();
+            }
+            Welcome.Show();
+            this.Hide();
         }
 
-        private void panelSidePanel_Paint(object sender, PaintEventArgs e)
+        private void buttonBookManagement_Click(object sender, EventArgs e)
         {
-
+            if (UserControlManageBooks == null)
+            {
+                UserControlManageBooks = new UserControlManageBooks();
+            }
+            else if (currentContent != UserControlManageBooks)
+            {
+                panelBody.Controls.Remove(currentContent);
+                currentContent = UserControlManageBooks;
+                panelBody.Controls.Add(UserControlManageBooks);
+                UserControlManageBooks.Visible = true;
+            }
         }
 
-        private void panelBody_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

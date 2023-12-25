@@ -232,6 +232,12 @@
     <Compile Include="StaffControls\UserControlManageBooks.Designer.cs">
       <DependentUpon>UserControlManageBooks.cs</DependentUpon>
     </Compile>
+    <Compile Include="StaffControls\UserControlManageUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaffControls\UserControlManageUsers.Designer.cs">
+      <DependentUpon>UserControlManageUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserUC\UserControlAccount.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -317,6 +323,9 @@
     <EmbeddedResource Include="StaffControls\UserControlManageBooks.resx">
       <DependentUpon>UserControlManageBooks.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StaffControls\UserControlManageUsers.resx">
+      <DependentUpon>UserControlManageUsers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserUC\UserControlAccount.resx">
       <DependentUpon>UserControlAccount.cs</DependentUpon>
     </EmbeddedResource>
@@ -326,11 +335,17 @@
     <EmbeddedResource Include="UserUC\UserControlBrowse.resx">
       <DependentUpon>UserControlBrowse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserUC\UserControlChangePass.resx">
+      <DependentUpon>UserControlChangePass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserUC\UserControlEditDetails.resx">
       <DependentUpon>UserControlEditDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserUC\UserControlHome.resx">
       <DependentUpon>UserControlHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserUC\UserControlReserve.resx">
+      <DependentUpon>UserControlReserve.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomePage\UserControlTitle.resx">
       <DependentUpon>UserControlTitle.cs</DependentUpon>

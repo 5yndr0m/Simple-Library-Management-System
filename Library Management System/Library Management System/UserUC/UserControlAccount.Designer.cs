@@ -45,7 +45,6 @@
             this.labelPlaceHoldDue = new System.Windows.Forms.Label();
             this.labelBorrowStat = new System.Windows.Forms.Label();
             this.labelDue = new System.Windows.Forms.Label();
-            this.buttonBack = new System.Windows.Forms.Button();
             this.buttonChangePass = new System.Windows.Forms.Button();
             this.buttonEdit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProPic)).BeginInit();
@@ -221,21 +220,9 @@
             this.labelDue.TabIndex = 47;
             this.labelDue.Text = "Due";
             // 
-            // buttonBack
-            // 
-            this.buttonBack.FlatAppearance.BorderSize = 2;
-            this.buttonBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonBack.Font = new System.Drawing.Font("Microsoft PhagsPa", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonBack.Location = new System.Drawing.Point(207, 292);
-            this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(104, 39);
-            this.buttonBack.TabIndex = 48;
-            this.buttonBack.Text = "Back";
-            this.buttonBack.UseVisualStyleBackColor = true;
-            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
-            // 
             // buttonChangePass
             // 
+            this.buttonChangePass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(166)))), ((int)(((byte)(97)))));
             this.buttonChangePass.FlatAppearance.BorderSize = 2;
             this.buttonChangePass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonChangePass.Font = new System.Drawing.Font("Microsoft PhagsPa", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -244,11 +231,12 @@
             this.buttonChangePass.Size = new System.Drawing.Size(184, 39);
             this.buttonChangePass.TabIndex = 49;
             this.buttonChangePass.Text = "Change Password";
-            this.buttonChangePass.UseVisualStyleBackColor = true;
+            this.buttonChangePass.UseVisualStyleBackColor = false;
             this.buttonChangePass.Click += new System.EventHandler(this.buttonChangePass_Click);
             // 
             // buttonEdit
             // 
+            this.buttonEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(166)))), ((int)(((byte)(97)))));
             this.buttonEdit.FlatAppearance.BorderSize = 2;
             this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEdit.Font = new System.Drawing.Font("Microsoft PhagsPa", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -257,16 +245,16 @@
             this.buttonEdit.Size = new System.Drawing.Size(142, 39);
             this.buttonEdit.TabIndex = 50;
             this.buttonEdit.Text = "Edit Details";
-            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.UseVisualStyleBackColor = false;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // UserControlAccount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(238)))), ((int)(((byte)(220)))));
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.buttonChangePass);
-            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.labelDue);
             this.Controls.Add(this.labelBorrowStat);
             this.Controls.Add(this.labelPlaceHoldDue);
@@ -312,7 +300,6 @@
         private System.Windows.Forms.Label labelPlaceHoldDue;
         private System.Windows.Forms.Label labelBorrowStat;
         private System.Windows.Forms.Label labelDue;
-        private System.Windows.Forms.Button buttonBack;
         private System.Windows.Forms.Button buttonChangePass;
         private System.Windows.Forms.Button buttonEdit;
     }

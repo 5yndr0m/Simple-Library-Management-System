@@ -45,6 +45,7 @@
             // 
             // panelHead
             // 
+            this.panelHead.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(169)))));
             this.panelHead.Location = new System.Drawing.Point(12, 12);
             this.panelHead.Name = "panelHead";
             this.panelHead.Size = new System.Drawing.Size(374, 141);
@@ -52,6 +53,7 @@
             // 
             // panelBody
             // 
+            this.panelBody.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(169)))));
             this.panelBody.Controls.Add(this.panelLogin);
             this.panelBody.Location = new System.Drawing.Point(12, 159);
             this.panelBody.Name = "panelBody";
@@ -85,6 +87,7 @@
             // 
             // buttonRegister
             // 
+            this.buttonRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(166)))), ((int)(((byte)(97)))));
             this.buttonRegister.FlatAppearance.BorderSize = 2;
             this.buttonRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRegister.Font = new System.Drawing.Font("Microsoft PhagsPa", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -93,11 +96,12 @@
             this.buttonRegister.Size = new System.Drawing.Size(104, 39);
             this.buttonRegister.TabIndex = 22;
             this.buttonRegister.Text = "Register";
-            this.buttonRegister.UseVisualStyleBackColor = true;
+            this.buttonRegister.UseVisualStyleBackColor = false;
             this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
             // buttonBack
             // 
+            this.buttonBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(166)))), ((int)(((byte)(97)))));
             this.buttonBack.FlatAppearance.BorderSize = 2;
             this.buttonBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonBack.Font = new System.Drawing.Font("Microsoft PhagsPa", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -106,11 +110,12 @@
             this.buttonBack.Size = new System.Drawing.Size(104, 39);
             this.buttonBack.TabIndex = 21;
             this.buttonBack.Text = "Back";
-            this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonBack.UseVisualStyleBackColor = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // buttonLogin
             // 
+            this.buttonLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(166)))), ((int)(((byte)(97)))));
             this.buttonLogin.FlatAppearance.BorderSize = 2;
             this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLogin.Font = new System.Drawing.Font("Microsoft PhagsPa", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -119,12 +124,12 @@
             this.buttonLogin.Size = new System.Drawing.Size(214, 39);
             this.buttonLogin.TabIndex = 20;
             this.buttonLogin.Text = "Login";
-            this.buttonLogin.UseVisualStyleBackColor = true;
+            this.buttonLogin.UseVisualStyleBackColor = false;
             this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(145, 93);
+            this.textBoxPassword.Location = new System.Drawing.Point(145, 82);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(168, 20);
             this.textBoxPassword.TabIndex = 19;
@@ -139,20 +144,20 @@
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPassword.Location = new System.Drawing.Point(40, 93);
+            this.labelPassword.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPassword.Location = new System.Drawing.Point(58, 81);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(99, 26);
+            this.labelPassword.Size = new System.Drawing.Size(76, 18);
             this.labelPassword.TabIndex = 17;
             this.labelPassword.Text = "Password";
             // 
             // labelUsername
             // 
             this.labelUsername.AutoSize = true;
-            this.labelUsername.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUsername.Location = new System.Drawing.Point(34, 40);
+            this.labelUsername.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUsername.Location = new System.Drawing.Point(58, 40);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(105, 26);
+            this.labelUsername.Size = new System.Drawing.Size(81, 18);
             this.labelUsername.TabIndex = 16;
             this.labelUsername.Text = "Username";
             // 
@@ -160,12 +165,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(166)))), ((int)(((byte)(97)))));
             this.ClientSize = new System.Drawing.Size(396, 450);
             this.ControlBox = false;
             this.Controls.Add(this.panelBody);
             this.Controls.Add(this.panelHead);
             this.Name = "Formlogin";
             this.Text = "Login";
+            //this.Load += new System.EventHandler(this.Formlogin_Load);
             this.panelBody.ResumeLayout(false);
             this.panelLogin.ResumeLayout(false);
             this.panelLogin.PerformLayout();
