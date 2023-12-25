@@ -69,5 +69,35 @@ namespace Library_Management_System.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_pixabay_256431 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-pixabay-256431", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_stanislav_kondratiev_2908984 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-stanislav-kondratiev-2908984", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vecteezy_book_and_studen_logo_vector_6552415_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("vecteezy_book-and-studen-logo-vector_6552415-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

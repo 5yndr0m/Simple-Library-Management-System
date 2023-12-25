@@ -99,6 +99,8 @@ namespace Library_Management_System.UserUC
             labelPlaceHoldConNo.Text = contactNumber;
             labelPlaceHoldBStatus.Text = borrow;
             labelPlaceHoldDue.Text = duedate;
+            EditDetails = new UserControlEditDetails();
+            ChangePass = new UserControlChangePass();
         }
 
         private void buttonEdit_Click(object sender, EventArgs e)

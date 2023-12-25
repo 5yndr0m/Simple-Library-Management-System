@@ -35,13 +35,19 @@
             this.buttonExit = new System.Windows.Forms.Button();
             this.buttonRegister = new System.Windows.Forms.Button();
             this.buttonLogin = new System.Windows.Forms.Button();
+            this.pictureBoxwel = new System.Windows.Forms.PictureBox();
+            this.pictureBoxlogo = new System.Windows.Forms.PictureBox();
+            this.panelHead.SuspendLayout();
             this.panelBody.SuspendLayout();
             this.panelButtons.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxwel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxlogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panelHead
             // 
             this.panelHead.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(169)))));
+            this.panelHead.Controls.Add(this.pictureBoxlogo);
             this.panelHead.Location = new System.Drawing.Point(12, 12);
             this.panelHead.Name = "panelHead";
             this.panelHead.Size = new System.Drawing.Size(776, 141);
@@ -50,6 +56,7 @@
             // panelBody
             // 
             this.panelBody.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(169)))));
+            this.panelBody.Controls.Add(this.pictureBoxwel);
             this.panelBody.Controls.Add(this.panelButtons);
             this.panelBody.Location = new System.Drawing.Point(12, 159);
             this.panelBody.Name = "panelBody";
@@ -125,6 +132,26 @@
             this.buttonLogin.UseVisualStyleBackColor = false;
             this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
+            // pictureBoxwel
+            // 
+            this.pictureBoxwel.BackgroundImage = global::Library_Management_System.Properties.Resources.pexels_pixabay_256431;
+            this.pictureBoxwel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxwel.Location = new System.Drawing.Point(3, 3);
+            this.pictureBoxwel.Name = "pictureBoxwel";
+            this.pictureBoxwel.Size = new System.Drawing.Size(617, 233);
+            this.pictureBoxwel.TabIndex = 2;
+            this.pictureBoxwel.TabStop = false;
+            // 
+            // pictureBoxlogo
+            // 
+            this.pictureBoxlogo.BackgroundImage = global::Library_Management_System.Properties.Resources.vecteezy_book_and_studen_logo_vector_6552415_removebg_preview;
+            this.pictureBoxlogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxlogo.Location = new System.Drawing.Point(626, 3);
+            this.pictureBoxlogo.Name = "pictureBoxlogo";
+            this.pictureBoxlogo.Size = new System.Drawing.Size(147, 135);
+            this.pictureBoxlogo.TabIndex = 0;
+            this.pictureBoxlogo.TabStop = false;
+            // 
             // FormWelcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,8 +164,11 @@
             this.Name = "FormWelcome";
             this.Text = "Welcome";
             this.Load += new System.EventHandler(this.FormWelcome_Load);
+            this.panelHead.ResumeLayout(false);
             this.panelBody.ResumeLayout(false);
             this.panelButtons.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxwel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxlogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -152,6 +182,8 @@
         private System.Windows.Forms.Button buttonRegister;
         private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.Button buttonStaff;
+        private System.Windows.Forms.PictureBox pictureBoxlogo;
+        private System.Windows.Forms.PictureBox pictureBoxwel;
     }
 }
 

@@ -18,11 +18,16 @@ namespace Library_Management_System
         private FormWelcome Welcome = null;
         //initialize the user controls
         private UserControlManageBooks UserControlManageBooks = null;
+        private UserControlManageUsers UserControlManageUsers = null;
+        private UserControlStaffHome UserControlStaffHome = null;
         private Control currentContent;
 
         public FormStaffControls()
         {
             InitializeComponent();
+            UserControlStaffHome = new UserControlStaffHome();
+            currentContent = UserControlStaffHome;
+            panelBody.Controls.Add(UserControlStaffHome);
         }
 
         private void buttonLogout_Click(object sender, EventArgs e)
@@ -50,5 +55,30 @@ namespace Library_Management_System
             }
         }
 
+        private void buttonUsers_Click(object sender, EventArgs e)
+        {
+            if (UserControlManageUsers == null)
+            {
+                UserControlManageUsers = new UserControlManageUsers();
+            }
+            else if (currentContent != UserControlManageUsers)
+            {
+                panelBody.Controls.Remove(currentContent);
+                currentContent = UserControlManageUsers;
+                panelBody.Controls.Add(UserControlManageUsers);
+                UserControlManageUsers.Visible = true;
+            }
+        }
+
+        private void buttonHome_Click(object sender, EventArgs e)
+        {
+            if (currentContent != UserControlStaffHome)
+            {
+                panelBody.Controls.Remove(currentContent);
+                currentContent = UserControlStaffHome;
+                panelBody.Controls.Add(UserControlStaffHome);
+                UserControlStaffHome.Visible = true;
+            }
+        }
     }
 }
