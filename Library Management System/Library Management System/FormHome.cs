@@ -23,6 +23,9 @@ namespace Library_Management_System
         private UserControlReserve Reserve;
         private Control currentContent; //tracks currently displayed content
 
+        public string username;
+        public string password;
+
         public Home()
         {
             InitializeComponent();
@@ -30,6 +33,14 @@ namespace Library_Management_System
             currentContent = HomeDef; //set default currentContent to home
             panelBody.Controls.Add(HomeDef);
         }
+
+        public Home(string username, string password)
+        {
+            InitializeComponent();
+            this.username = username;
+            this.password = password;
+        }
+
 
         private void buttonHome_Click(object sender, EventArgs e)
         {
@@ -121,6 +132,16 @@ namespace Library_Management_System
         private void buttonBack_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void panelSidePanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Home_Load_1(object sender, EventArgs e)
+        {
+            labelUsername.Text = username;
         }
     }
 }

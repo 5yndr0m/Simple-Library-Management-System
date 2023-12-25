@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.Common;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -74,6 +75,16 @@ namespace Library_Management_System
             }
             FormStaffLogin.Show();
             this.Hide();
+        }
+
+        private void panelBody_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FormWelcome_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

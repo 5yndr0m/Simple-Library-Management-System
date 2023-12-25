@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Library_Management_System.Login;
+using Library_Management_System.UserUC;
 using Library_Management_System.WelcomePage;
 
 namespace Library_Management_System
@@ -21,10 +22,12 @@ namespace Library_Management_System
         private Home FormHome = null;
         //initialize the user controls
         private UserControlTitleLogin Title;
+        private UserControlAccount Account = null;
         private Control CurrentContent;//tracks currently displayed content
         //variables to store user details
         private string username;
         private string password;
+
         public Formlogin()
         {
             InitializeComponent();
@@ -80,7 +83,8 @@ namespace Library_Management_System
                         {
                             // Credentials match, redirect to home form
                             reader.Close();
-                            Home FormHome= new Home();
+                            UserControlAccount Account = new UserControlAccount(username, password);
+                            Home FormHome = new Home(username, password);
                             FormHome.Show();
                             this.Hide(); // Hide the login form
                         }
@@ -97,7 +101,10 @@ namespace Library_Management_System
                 MessageBox.Show("Error checking credentials: " + ex.Message);
             }
 
+           
+
 
         }
+
     }
 }
