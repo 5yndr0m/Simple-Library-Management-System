@@ -238,6 +238,12 @@
     <Compile Include="StaffControls\UserControlManageUsers.Designer.cs">
       <DependentUpon>UserControlManageUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="StaffControls\UserControlStaffHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaffControls\UserControlStaffHome.Designer.cs">
+      <DependentUpon>UserControlStaffHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserUC\UserControlAccount.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -326,6 +332,9 @@
     <EmbeddedResource Include="StaffControls\UserControlManageUsers.resx">
       <DependentUpon>UserControlManageUsers.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StaffControls\UserControlStaffHome.resx">
+      <DependentUpon>UserControlStaffHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserUC\UserControlAccount.resx">
       <DependentUpon>UserControlAccount.cs</DependentUpon>
     </EmbeddedResource>
@@ -389,6 +398,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>DatabaseUsers.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\pexels-pixabay-256431.jpg" />
+    <None Include="Resources\vecteezy_book-and-studen-logo-vector_6552415-removebg-preview.png" />
+    <None Include="Resources\pexels-stanislav-kondratiev-2908984.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

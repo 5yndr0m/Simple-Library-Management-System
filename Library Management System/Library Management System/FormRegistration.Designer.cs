@@ -67,7 +67,7 @@
             this.panelHead.Name = "panelHead";
             this.panelHead.Size = new System.Drawing.Size(374, 141);
             this.panelHead.TabIndex = 2;
-            this.panelHead.Paint += new System.Windows.Forms.PaintEventHandler(this.panelHead_Paint);
+            //this.panelHead.Paint += new System.Windows.Forms.PaintEventHandler(this.panelHead_Paint);
             // 
             // labelRegistration
             // 
@@ -246,6 +246,7 @@
             this.buttonLogin.TabIndex = 22;
             this.buttonLogin.Text = "Login";
             this.buttonLogin.UseVisualStyleBackColor = false;
+            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click_1);
             // 
             // buttonBack
             // 

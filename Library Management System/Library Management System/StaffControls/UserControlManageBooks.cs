@@ -71,7 +71,7 @@ namespace Library_Management_System.StaffControls
                     string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\sdila\\Documents\\Visual Studio 2022\\Library Management System\\Library Management System\\DatabaseUsers.mdf\";Integrated Security=True;Connect Timeout=30";
                     using (SqlConnection connection = new SqlConnection(connectionString))
                     {
-                        string insertCommand = @"INSERT INTO Books (BookID, BookName, BookAuthor, isbn, Publisher, Language, PublishYear,)
+                        string insertCommand = @"INSERT INTO Books (BookID, BookName, BookAuthor, isbn, Publisher, Language, PublishYear)
                                        VALUES (@bookID, @bookName, @Author, @isbn, @language, @publisher, @year)";
 
                         using (SqlCommand command = new SqlCommand(insertCommand, connection))
@@ -89,6 +89,13 @@ namespace Library_Management_System.StaffControls
                         }
 
                         MessageBox.Show("Book registered successfully!");
+                        textBoxBookID.Clear();
+                        textBoxBookName.Clear();
+                        textBoxAuthor.Clear();
+                        textBoxISBN.Clear();
+                        textBoxLanguage.Clear();
+                        textBoxPublisher.Clear();
+                        textBoxYear.Clear();
                     }
                 }
                 catch (SqlException ex)

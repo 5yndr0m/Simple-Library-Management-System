@@ -134,6 +134,7 @@
             this.buttonUsers.TabIndex = 25;
             this.buttonUsers.Text = "Remove";
             this.buttonUsers.UseVisualStyleBackColor = false;
+            this.buttonUsers.Click += new System.EventHandler(this.buttonUsers_Click);
             // 
             // buttonBookManagement
             // 
@@ -161,6 +162,7 @@
             this.buttonHome.TabIndex = 22;
             this.buttonHome.Text = "Home";
             this.buttonHome.UseVisualStyleBackColor = false;
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // panelBody
             // 

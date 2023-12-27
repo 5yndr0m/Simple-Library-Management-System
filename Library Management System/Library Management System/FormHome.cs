@@ -47,6 +47,7 @@ namespace Library_Management_System
             //checks for availability of home and display if its not present
             if (currentContent != HomeDef)
             {
+                HomeDef = new UserControlHome();
                 panelBody.Controls.Remove(currentContent);
                 currentContent = HomeDef;
                 panelBody.Controls.Add(HomeDef);
@@ -129,11 +130,6 @@ namespace Library_Management_System
             this.Hide();
         }
 
-        private void buttonBack_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void panelSidePanel_Paint(object sender, PaintEventArgs e)
         {
 
@@ -142,6 +138,9 @@ namespace Library_Management_System
         private void Home_Load_1(object sender, EventArgs e)
         {
             labelUsername.Text = username;
+            HomeDef = new UserControlHome();
+            currentContent = HomeDef; //set default currentContent to home
+            panelBody.Controls.Add(HomeDef);
         }
     }
 }
