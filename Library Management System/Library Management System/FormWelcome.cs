@@ -47,7 +47,7 @@ namespace Library_Management_System
         private void buttonExit_Click(object sender, EventArgs e)
         {
             //Closes the application
-            this.Close();
+            this.Dispose();
         }
 
         private void buttonRegister_Click(object sender, EventArgs e)

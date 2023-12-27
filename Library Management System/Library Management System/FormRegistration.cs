@@ -172,9 +172,16 @@ namespace Library_Management_System
             }
         }
 
-        private void panelHead_Paint(object sender, PaintEventArgs e)
-        {
 
+        private void buttonLogin_Click_1(object sender, EventArgs e)
+        {
+            //opens new instance of FormLogin
+            if (LoginForm == null || LoginForm.IsDisposed)
+            {
+                LoginForm = new Formlogin();
+            }
+            LoginForm.Show();
+            this.Hide();
         }
     }
 }
